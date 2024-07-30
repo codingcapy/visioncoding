@@ -119,6 +119,16 @@ main {
     animation: glow 1s ease-in-out infinite alternate;
 }
 
+#background-video {
+    width: 100vw;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
 @-webkit-keyframes glow {
     from {
         text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 10px #fff, 0 0 20px #fff;
